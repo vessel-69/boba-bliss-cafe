@@ -28,13 +28,13 @@ Made for **Hack Club Boba Drops**
 
 ## Live Demo
 
-Deployed on Vercel 
+- Deployed on Vercel 
 > [boba-bliss-cafe-navy.vercel.app](https://boba-bliss-cafe-navy.vercel.app)
 
 ---
 
 ## Run it locally
-
+Bash
 ```bash
 git clone https://github.com/vessel-69/boba-bliss-cafe.git
 cd boba-bliss-cafe
