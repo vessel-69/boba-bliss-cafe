@@ -8,7 +8,7 @@
 
 ## What is this?
 
-It's a fake cafe menu page for bubble tea drinks. I made it as a fun little project. It shows 3 boba drinks with their ingredients and has a simple card layout. Nothing fancy, just a clean menu page with a soft pink cafe vibe.
+It's a fake cafe menu page for bubble tea drinks. I made it as a fun little project. It shows 9 boba drinks with their ingredients and has a simple card layout. Nothing fancy, just a clean menu page with a soft pink cafe vibe.
 
 Made for **Hack Club Boba Drops**
 
