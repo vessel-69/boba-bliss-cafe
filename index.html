@@ -3,75 +3,181 @@
   <head>
     <meta charset="UTF-8" />
     <title>Boba Bliss Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
-    <header>
+    <!-- header-start -->
+    <header id="header">
       <h1>Boba Bliss Cafe</h1>
       <p>Your cozy spot for bubble tea & good vibes.</p>
     </header>
+    <!-- header-end -->
 
-    <p class="intro">
-      Welcome to Boba Bliss! We make all our drinks fresh every day with real
-      tea, soft tapioca pearls, and the best flavors around. Come relax, sip
-      slowly, and treat yourself a little <3. ☁️
-    </p>
+    <!-- main-start -->
+    <main id="main">
+      <p class="intro">
+        Welcome to Boba Bliss! We make all our drinks fresh every day with real
+        tea, soft tapioca pearls, and the best flavors around. Come relax, sip
+        slowly, and treat yourself a little &lt;3.
+      </p>
 
-    <h2 class="menu-title">Our Drinks</h2>
+      <h2 class="menu-title">Our Drinks</h2>
 
-    <div class="cards">
-      <div class="card">
-        <img
-          src="/src/brown-sugar-bubble-tea.jpg" alt="Classic Milk Tea"
-        />
-        <h3>Classic Milk Tea</h3>
-        <ul>
-          <li>Black tea</li>
-          <li>Whole milk</li>
-          <li>Brown sugar</li>
-          <li>Tapioca pearls</li>
-          <li>Ice</li>
-        </ul>
+      <div class="cards">
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="/src/classic-milk-tea.jpeg" alt="Classic Milk Tea" />
+          </div>
+          <span class="badge">fan fav</span>
+          <h3>Classic Milk Tea</h3>
+          <ul>
+            <li>Black tea</li>
+            <li>Whole milk</li>
+            <li>Brown sugar</li>
+            <li>Tapioca pearls</li>
+            <li>Ice</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="/src/strawberry-matcha.jpeg" alt="Strawberry Matcha" />
+          </div>
+          <span class="badge">popular</span>
+          <h3>Strawberry Matcha</h3>
+          <ul>
+            <li>Matcha powder</li>
+            <li>Oat milk</li>
+            <li>Fresh strawberries</li>
+            <li>Honey syrup</li>
+            <li>Popping boba</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="/src/taro-latte.jpeg" alt="Taro Latte" />
+          </div>
+          <h3>Taro Latte</h3>
+          <ul>
+            <li>Taro powder</li>
+            <li>Coconut milk</li>
+            <li>Vanilla syrup</li>
+            <li>Tapioca pearls</li>
+            <li>Crushed ice</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="/src/brown-sugar-tiger.jpeg" alt="Brown Sugar Tiger" />
+          </div>
+          <span class="badge">new</span>
+          <h3>Brown Sugar Tiger</h3>
+          <ul>
+            <li>Tiger stripes syrup</li>
+            <li>Fresh milk</li>
+            <li>Brown sugar boba</li>
+            <li>Vanilla foam</li>
+            <li>Ice</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="/src/mango.png" alt="Mango Passion" />
+          </div>
+          <h3>Mango Passion</h3>
+          <ul>
+            <li>Mango puree</li>
+            <li>Passion fruit tea</li>
+            <li>Coconut jelly</li>
+            <li>Lemon juice</li>
+            <li>Ice</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="/src/blueberry-matcha.jpeg" alt="Blueberry Matcha" />
+          </div>
+          <span class="badge">Best</span>
+          <h3>Blueberry Matcha</h3>
+          <ul>
+            <li>Matcha powder</li>
+            <li>Coconut jelly</li>
+            <li>Tapioca pearls</li>
+            <li>Vanilla foam</li>
+            <li>Ice</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="/src/peach-green-tea.jpeg" alt="Peach Green Tea" />
+          </div>
+          <span class="badge">seasonal</span>
+          <h3>Peach Green Tea</h3>
+          <ul>
+            <li>Green tea</li>
+            <li>Peach syrup</li>
+            <li>Popping boba</li>
+            <li>Lychee jelly</li>
+            <li>Ice</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="/src/oolong-tea.jpeg" alt="Oolong Milk Tea" />
+          </div>
+          <h3>Oolong Milk Tea</h3>
+          <ul>
+            <li>Oolong tea</li>
+            <li>Whole milk</li>
+            <li>Honey</li>
+            <li>Tapioca pearls</li>
+            <li>Ice</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <img src="/src/coconut.png" alt="Coconut Pandan" />
+          </div>
+          <span class="badge">Must Try</span>
+          <h3>Coconut Pandan</h3>
+          <ul>
+            <li>Pandan extract</li>
+            <li>Coconut milk</li>
+            <li>Grass jelly</li>
+            <li>Palm sugar</li>
+            <li>Crushed ice</li>
+          </ul>
+        </div>
       </div>
-
-      <div class="card">
-        <img src="/src/strawberry-matcha.jpg" alt="Strawberry Matcha" />
-        <h3>Strawberry Matcha</h3>
-        <ul>
-          <li>Matcha powder</li>
-          <li>Oat milk</li>
-          <li>Fresh strawberries</li>
-          <li>Honey syrup</li>
-          <li>Popping boba</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <img src="/src/taro-matcha.jpg" alt="Taro Latte" />
-        <h3>Taro Latte</h3>
-        <ul>
-          <li>Taro powder</li>
-          <li>Coconut milk</li>
-          <li>Vanilla syrup</li>
-          <li>Tapioca pearls</li>
-          <li>Crushed ice</li>
-        </ul>
-      </div>
-    </div>
+    </main>
+    <!-- main-end -->
 
     <!-- footer-start -->
-
-    <footer>
-      <p>Love boba as much as we do? 🧡</p>
+    <footer id="footer">
+      <p>Love boba as much as we do? &lt;3</p>
       <p>
         <a href="https://en.wikipedia.org/wiki/Bubble_tea" target="_blank">
           Learn more about bubble tea
         </a>
       </p>
+
+      <a href="https://github.com/vessel-69" class="github-btn" target="_blank">
+        GitHub
+      </a>
     </footer>
-
     <!-- footer-end -->
-
   </body>
 </html>
