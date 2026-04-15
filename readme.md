@@ -29,7 +29,7 @@ Made for **Hack Club Boba Drops**
 ## Live Demo
 
 Deployed on Vercel 
-> [boba-bliss-cafe.vercel.app](https://boba-bliss-cafe.vercel.app)
+> [boba-bliss-cafe-navy.vercel.app](https://boba-bliss-cafe-navy.vercel.app)
 
 ---
 
