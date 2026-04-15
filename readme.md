@@ -1,7 +1,7 @@
 # Boba Bliss Cafe
 
 - A simple boba cafe menu webpage made with just HTML and CSS.
-- fun fact: Made just under '45min' **skills fully not utlized**
+- fun fact: Made just under `1:45min` **skills fully not utlized**
 - Made in **MS visual studio code**
 
 ---
